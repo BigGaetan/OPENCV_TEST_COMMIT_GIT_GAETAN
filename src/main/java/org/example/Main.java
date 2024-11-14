@@ -11,7 +11,7 @@ public class Main {    // Compulsory
     public static void main(String[] args) {
         System.out.println("Welcome to OpenCV " + Core.VERSION);
         Mat m = new Mat(5, 10, CvType.CV_8UC1, new Scalar(0));
-        System.out.println("OpenCV Mat: " + m);
+        System.out.println("OpeCV Mat: " + m);
         Mat mr1 = m.row(1);
         mr1.setTo(new Scalar(1));
         Mat mc5 = m.col(5);
