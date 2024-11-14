@@ -4,7 +4,7 @@ import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.core.CvType;
 import org.opencv.core.Scalar;
-//TEST DE POULE DU 14 11 2024 à 10h39
+//TEST DE POULE DU 14 11 2024 à 10h54
 public class Main {    // Compulsory
     static{ System.loadLibrary(Core.NATIVE_LIBRARY_NAME); }
 
